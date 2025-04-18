@@ -2,9 +2,11 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  overflow: hidden;
+  max-width: 1250px;
   background-color: #181721;
   font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .navbar {
@@ -201,4 +203,14 @@
   .hero-subtitle {
     font-size: 14px;
   }
+}
+
+.header {
+    background-color: #181721;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    margin: 0;
+    max-width: 1250px;
+    margin: 0 auto;
 } 

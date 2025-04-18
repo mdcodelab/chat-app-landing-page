@@ -1,10 +1,11 @@
 import React from "react";
 import { Button } from "../../Button/Button";
+import { PiWaveformThin } from "react-icons/pi";
 import "./Header.css";
 
 export const Header = () => {
   return (
-    <header className="frame">
+    <header className="frame" id="about">
       <nav className="navbar" aria-label="Main navigation">
         <img
           className="logo"
