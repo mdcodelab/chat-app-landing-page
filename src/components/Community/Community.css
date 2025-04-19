@@ -1,0 +1,46 @@
+#community {
+    background-color: #181721;
+    height: 129vh;
+    width: 100%;
+    max-width: 1259px;
+    margin: 0 auto;
+    padding: 4rem 20px;
+}
+
+.community__header h2 {
+    color: #fff;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.community__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    color: #fff;
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.community__image {
+    width: 100%;
+    height: 100%;
+    max-width: 1250px;
+    background-image: url("/public/assets/community.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+  }
+  
