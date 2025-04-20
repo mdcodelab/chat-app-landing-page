@@ -1,7 +1,146 @@
 #pricing {
     width: 100%;
+    height: 100%;
     max-width: 1259px;
     margin: 0 auto;
     padding: 4rem 20px;
     background-color: #181721;
 }
+
+#pricing h2 {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 0.12rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.pricing__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.price {
+    height: 100%;
+    flex: 1 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 27rem;
+}
+
+.price h5 {
+color: #fff;
+font-weight: 300;
+font-size: 1.2rem;
+font-family: "Roboto", sans-serif;
+margin-bottom: 1rem;
+}
+
+.price h2 {
+    color: #fff;
+    font-weight: 600;
+    text-align: left !important;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: -3rem;
+}
+
+.price h6 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.75rem;
+    font-family: "Roboto", sans-serif;
+    opacity: 0.5;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 1rem;
+}
+
+.item .icon {
+    color: #fff;
+    opacity: 0.5;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin-right: 1rem;
+}
+
+.item p {
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn {
+    color: #fff;
+    background-color: transparent;
+    opacity: 0.5;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.075rem;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    MARGIN: 0 auto;
+    margin-top: 4rem;
+}
+
+.select__btn {
+    background-color: #fff;
+    color: #181721;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.select__btn:hover {
+    background-color: #8674FE;
+    color: #fff;
+    border: none;
+    opacity: 1;
+}
+
+.premium {
+    position: relative;
+}
+
+.note {
+    color: #fff;
+    font-size: 0.75rem;
+    background-color:  #8674FE;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 0.2rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    
+}
+
+.basic button {
+    margin-top: 5.25rem;
+}
+

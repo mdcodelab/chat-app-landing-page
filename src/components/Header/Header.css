@@ -94,6 +94,7 @@
   margin-bottom: 20px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.12rem;
   display: flex;
   align-items: center;
 }

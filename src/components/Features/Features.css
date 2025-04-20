@@ -26,9 +26,9 @@
 }
 
 .features__header h2 {
-    font-size: 30px;
-    width: 50% !important;
-    font-weight: 500;
+    font-size: 35px;
+    width: 60% !important;
+    letter-spacing: 0.12rem;
     color: #fff;
     width: 60%;
     line-height: 2.2rem;

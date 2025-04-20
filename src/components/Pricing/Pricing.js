@@ -8,66 +8,66 @@ const Pricing = () => {
       <h2>Pay once, use forever</h2>
       <div className="pricing__content">
         {/* BASIC */}
-        <div className="basic">
+        <div className="price basic">
           <h5>Basic plan</h5>
           <h2>Free</h2>
-          <p>AI chat bot, personalized recommendations</p>
+          <h6>AI chat bot, personalized recommendations</h6>
           <div className="content__basic">
             <div className="item">
-              <FaCheck className="icon" />
-              <p>AI chat bot</p>
+              <FaCheck className="icon"/>
+              <p>An AI chat bot that can understand your queries</p>
             </div>
             <div className="item">
               <FaCheck className="icon" />
-              <p>Personalized recommendations</p>
-            </div>
-            <div className="content__basic__item">
-              <FaCheck className="check" />
-              <p>Community support</p>
+              <p>20 requests per day</p>
             </div>
           </div>
+          <button className="btn">Select plan</button>
         </div>
 
         {/* PREMIUM */}
-        <div className="premium">
-          <h5>Premium plan</h5>
-          <h2>$10</h2>
-          <p>Advanced AI chat bot, priority support</p>
+        <div className="price premium" style={{ marginLeft: "1rem", marginRight: "1rem" }}>
+        <span className="note">MOST POPULAR</span>
+          <h5 style={{opacity: "0.5"}}>Premium plan</h5>
+          <h2>$ 10</h2>
+          <h6>Advanced AI chat bot, priority support</h6>
           <div className="content__premium">
-            <div className="content__premium__item">
-              <FaCheck className="check" />
-              <p>Advanced AI chat bot</p>
+            <div className="item">
+              <FaCheck className="icon" />
+              <p>Unlimited number of requests</p>
             </div>
-            <div className="content__premium__item">
-              <FaCheck className="check" />
-              <p>Priority support</p>
+            <div className="item">
+              <FaCheck className="icon" />
+              <p>Integration with other platforms</p>
             </div>
-            <div className="content__premium__item">
-              <FaCheck className="check" />
-              <p>Early access to features</p>
+            <div className="item">
+              <FaCheck className="icon" />
+              <p>Extendd support</p>
             </div>
           </div>
+            <button className="btn select__btn">Select plan</button>
         </div>
 
         {/* SUPER */}
-        <div className="super">
+        <div className="price super">
           <h5>Super plan</h5>
-          <h2>$20</h2>
-          <p>Everything in Premium + team features</p>
+          <h2>$ 20</h2>
+          <h6>Custom AI chat bot, dedicated account</h6>
           <div className="content__super">
-            <div className="content__super__item">
-              <FaCheck className="check" />
-              <p>All Premium features</p>
+            <div className="item">
+              <FaCheck className="icon" />
+              <p>All features of the standard platform</p>
             </div>
-            <div className="content__super__item">
-              <FaCheck className="check" />
-              <p>Team collaboration tools</p>
+            <div className="item">
+              <FaCheck className="icon" />
+              <p>Access to the APIs for integration with specialized systems</p>
             </div>
-            <div className="content__super__item">
-              <FaCheck className="check" />
-              <p>Dedicated AI assistant</p>
+            <div className="item">
+              <FaCheck className="icon" />
+              <p>Priority support</p>
             </div>
           </div>
+          <button className="btn">Select plan</button>
         </div>
       </div>
     </section>
