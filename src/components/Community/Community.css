@@ -19,10 +19,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
     margin-top: 2rem;
     color: #fff;
-    width: 100px;
+    width: 70px;
     margin: 0 auto;
     padding-bottom: 2rem;
 }

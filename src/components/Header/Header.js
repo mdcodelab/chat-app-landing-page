@@ -38,7 +38,7 @@ export const Header = () => {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">
-            Unleash&nbsp;&nbsp;the power of AI with DIGI
+            Unleash the power  <PiWaveformThin className="icon"></PiWaveformThin>  of AI with DIGI
           </h1>
           <p className="hero-subtitle">
             Enter DIGI chat bot your gateway to unleash ing the unparalleled

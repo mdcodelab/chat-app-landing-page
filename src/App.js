@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import { Header } from "./components/Header/Header";
 import { Features } from "./components/Features/Features";
 import Commmunity from "./components/Community/Community";
+import Pricing from "./components/Pricing/Pricing";
 
 const App = () => {
   useEffect(() => {
@@ -45,6 +46,7 @@ const App = () => {
       <Header />
       <Features />
       <Commmunity />
+      <Pricing></Pricing>
     </>
   );
 };

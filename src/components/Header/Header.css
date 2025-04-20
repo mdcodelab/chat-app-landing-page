@@ -6,16 +6,22 @@
   background-color: #181721;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .navbar {
   display: flex;
   height: 5rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2000;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
-  position: relative;
   background-color: #181721;
   font-family: 'Roboto', sans-serif;
 }
@@ -33,7 +39,7 @@
 
 .navbar ul.nav-links li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1rem;
   color: #ffffff;
   opacity: 0.5;
   font-weight: 500;
@@ -50,12 +56,14 @@
   color: #ffffff;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
 .hero {
-  position: relative;
+  position: absolute;
+  top: 0;
   width: 100%;
-  height: calc(100vh - 5rem);
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +73,7 @@
 
 .hero-bg {
   position: absolute;
-  top: 8rem;
+  top: 12rem;
   left: 0;
   width: 100%;
   height: 100%;
@@ -78,7 +86,7 @@
   z-index: 2;
   max-width: 800px;
   padding: 0 20px;
-  margin-top: -25rem;
+  margin-top: -5rem;;
 }
 
 .hero-title {
@@ -86,6 +94,16 @@
   margin-bottom: 20px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  padding: 0 3px;
+  color: #fff;
+  opacity: 0.5;
 }
 
 .hero-subtitle {
