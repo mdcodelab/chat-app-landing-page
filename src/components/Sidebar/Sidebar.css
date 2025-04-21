@@ -1,0 +1,41 @@
+#sidebar {
+    background-color: #181721;
+    width: 100%;
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    right: -200%;
+    z-index: 2000;
+    transition: all 0.3s ease;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.links li {
+    margin-bottom: 4rem;
+}
+
+.links li a {
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.links li a:hover {
+    opacity: 1;
+}
+.links li a.active {
+    opacity: 1;
+    font-weight: 600;
+}

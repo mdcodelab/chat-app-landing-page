@@ -7,6 +7,7 @@ import { Features } from "./components/Features/Features";
 import Commmunity from "./components/Community/Community";
 import Pricing from "./components/Pricing/Pricing";
 import Why from "./components/Why/Why";
+import Sidebar from "./components/Sidebar/Sidebar";
 import { SidebarProvider } from "../src/useContext"
 
 
@@ -47,6 +48,7 @@ const App = () => {
 
   return (
     <>
+    <Sidebar></Sidebar>
       <Header />
       <Features />
       <Commmunity />
