@@ -1,6 +1,6 @@
 #community {
     background-color: #181721;
-    height: 129vh;
+    height: max-content;
     width: 100%;
     max-width: 1259px;
     margin: 0 auto;
@@ -33,8 +33,8 @@
 
 .community__image {
     width: 100%;
-    height: 100%;
     max-width: 1250px;
+    aspect-ratio: 16 / 9; 
     background-image: url("/public/assets/community.png");
     background-size: cover;
     background-position: center;
@@ -42,4 +42,22 @@
     background-attachment: fixed;
     border-radius: 10px;
   }
+
+  @media (max-width: 768px) {
+    #community {
+        height: max-content;
+    }
+    .community__header h2 {
+        font-size: 28px;
+    }
+    .community__image {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 576px) {
+    .community__header h2 {
+        font-size: 24px;
+    }
+}
   

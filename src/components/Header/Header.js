@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../../Button/Button";
-import { PiWaveformThin } from "react-icons/pi";
+import { GiPsychicWaves } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import "./Header.css";
@@ -23,7 +23,7 @@ export const Header = () => {
        <img
           className="logo"
           src="/assets/rectangle-5.png"
-          alt="Digi logo"
+          alt="Digi logo" onClick={closeSidebar}
           loading="lazy"
         />
        </a>
@@ -53,22 +53,20 @@ export const Header = () => {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">
-            Unleash the power  <PiWaveformThin className="icon"></PiWaveformThin>  of AI with DIGI
+            Unleash the power  <GiPsychicWaves className="icon"></GiPsychicWaves>  of AI with DIGI
           </h1>
           <p className="hero-subtitle">
             Enter DIGI chat bot your gateway to unleash ing the unparalleled
-            power of AI.
+            power of AI
           </p>
           <div className="cta-button">
             <Button className="get-started" color="primary" size="medium" />
           </div>
+          </div>
+
+        <div className="hero-bg">
+          <img src="/assets/hero.png"></img>
         </div>
-        <img
-          className="hero-bg"
-          src="/assets/rectangle-4.png"
-          alt="Background visual"
-          loading="lazy"
-        />
       </section>
     </header>
   );

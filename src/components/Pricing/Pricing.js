@@ -33,7 +33,6 @@ const Pricing = () => {
         {/* PREMIUM */}
         <div
           className="price premium"
-          style={{ marginLeft: "1rem", marginRight: "1rem" }}
           data-aos="fade-up"
           data-aos-delay="1500"
         >
