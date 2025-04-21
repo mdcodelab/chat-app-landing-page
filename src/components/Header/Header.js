@@ -1,9 +1,21 @@
 import React from "react";
 import { Button } from "../../Button/Button";
 import { PiWaveformThin } from "react-icons/pi";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { IoMdClose } from "react-icons/io";
 import "./Header.css";
+import { useSidebarContext } from "../../useContext";
 
 export const Header = () => {
+  const { isSidebarOpen, setIsSidebarOpen, toggleSidebar } = useSidebarContext();
+  function openSidebar () {
+    setIsSidebarOpen(prevState => !prevState);
+  }
+
+  function closeSidebar () {
+    setIsSidebarOpen(prevState=> !prevState);
+  }
+
   return (
     <header className="frame" id="home">
       <nav className="navbar" aria-label="Main navigation">
@@ -32,6 +44,10 @@ export const Header = () => {
         <a href="#login" className="login-link">
           Log in
         </a>
+        <div className="menu">
+      <RxHamburgerMenu className={isSidebarOpen ? "icon open" : "icon open none"} onClick={openSidebar}></RxHamburgerMenu>
+      <IoMdClose className={isSidebarOpen ? "icon close none" : "icon close display"} onClick={closeSidebar}></IoMdClose>
+        </div>
       </nav>
 
       <section className="hero">
