@@ -39,3 +39,10 @@
     opacity: 1;
     font-weight: 600;
 }
+
+@media (max-width: 672px) {
+    #sidebar.open {
+        right: 0;
+        transition: all 0.3s ease;
+    }
+}

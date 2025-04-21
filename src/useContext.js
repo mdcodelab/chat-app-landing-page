@@ -5,14 +5,14 @@ const SidebarContext = createContext();
 
 // 2. Furnizorul de context
 export const SidebarProvider = ({ children }) => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   const toggleSidebar = () => {
     setIsSidebarOpen(prev => !prev);
   };
 
   return (
-    <SidebarContext.Provider value={{ isSidebarOpen, toggleSidebar }}>
+    <SidebarContext.Provider value={{isSidebarOpen, setIsSidebarOpen, toggleSidebar }}>
       {children}
     </SidebarContext.Provider>
   );

@@ -48,12 +48,14 @@ const App = () => {
 
   return (
     <>
+    <SidebarProvider>
     <Sidebar></Sidebar>
       <Header />
       <Features />
       <Commmunity />
       <Pricing></Pricing>
       <Why></Why>
+    </SidebarProvider>
     </>
   );
 };
