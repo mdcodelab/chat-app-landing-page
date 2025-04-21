@@ -7,12 +7,14 @@ export const Header = () => {
   return (
     <header className="frame" id="about">
       <nav className="navbar" aria-label="Main navigation">
-        <img
+       <a href="#about">
+       <img
           className="logo"
           src="/assets/rectangle-5.png"
           alt="Digi logo"
           loading="lazy"
         />
+       </a>
         <ul className="nav-links">
           <li>
             <a href="#about">About</a>
@@ -27,7 +29,7 @@ export const Header = () => {
             <a href="#pricing">Pricing</a>
           </li>
           <li>
-            <a href="#why-digi">Why DIGI</a>
+            <a href="#why">Why DIGI</a>
           </li>
         </ul>
         <a href="#login" className="login-link">

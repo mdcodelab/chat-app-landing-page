@@ -6,6 +6,8 @@ import { Header } from "./components/Header/Header";
 import { Features } from "./components/Features/Features";
 import Commmunity from "./components/Community/Community";
 import Pricing from "./components/Pricing/Pricing";
+import Why from "./components/Why/Why";
+
 
 const App = () => {
   useEffect(() => {
@@ -47,6 +49,7 @@ const App = () => {
       <Features />
       <Commmunity />
       <Pricing></Pricing>
+      <Why></Why>
     </>
   );
 };

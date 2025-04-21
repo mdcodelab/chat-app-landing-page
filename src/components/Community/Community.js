@@ -15,7 +15,6 @@ const Community = () => {
         </div>
     </div>
     <div className="community__image">
-        <img src="/assets/community"></img>
     </div>
       
     </section>

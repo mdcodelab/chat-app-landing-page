@@ -134,7 +134,8 @@
   }
   
   .logo {
-    height: 60px;
+    height: 5rem !important;
+    margin: -2rem !important;
   }
   
   .nav-links {

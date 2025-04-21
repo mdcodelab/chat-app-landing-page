@@ -1,0 +1,133 @@
+#why {
+    padding: 4rem 20px;
+    padding-bottom: 2rem;
+    width: 100%;
+    max-width: 1250px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.why__left {
+    flex: 1;
+    height: 100%;
+}
+
+.why__left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.why__right {
+    flex: 1;
+    height: 100%;
+}
+
+.why__right h2 {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 0.12rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 4rem;
+}
+
+.why__right p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    opacity: 0.5;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.select__btn {
+    color: #fff;
+    background-color: transparent;
+    opacity: 0.5;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.075rem;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    MARGIN: 0 auto;
+    margin-top: 4rem;
+    background-color: #fff;
+    color: #181721;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.select__btn:hover {
+    background-color: #8674FE;
+    color: #fff;
+    border: none;
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    padding-left: 2rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 150px;
+}
+
+.icon {
+    color: #fff;
+    width: 1.75rem;
+    height: 1.75rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.footer__image {
+    height: 5rem;
+}
+
+@media (max-width: 768px) {
+    #why {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .why__left {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .why__right h2 {
+        font-size: 28px;
+    }
+
+    .why__right p {
+        width: 80%;
+        font-size: 1rem;
+    }
+    foooter {
+        flex-direction: column;
+        align-items: center;
+    }
+}
