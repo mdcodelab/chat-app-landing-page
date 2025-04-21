@@ -5,9 +5,9 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <header className="frame" id="about">
+    <header className="frame" id="home">
       <nav className="navbar" aria-label="Main navigation">
-       <a href="#about">
+       <a href="#home">
        <img
           className="logo"
           src="/assets/rectangle-5.png"
@@ -16,9 +16,6 @@ export const Header = () => {
         />
        </a>
         <ul className="nav-links">
-          <li>
-            <a href="#about">About</a>
-          </li>
           <li>
             <a href="#features">Features</a>
           </li>

@@ -22,7 +22,7 @@ const Why = () => {
       </section>
 
       <footer>
-        <a href="#about">
+        <a href="#home">
           <img src="/assets/rectangle-5.png" className="footer__image" alt="Scroll to about" />
         </a>
         <div className="icons">

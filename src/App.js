@@ -7,6 +7,8 @@ import { Features } from "./components/Features/Features";
 import Commmunity from "./components/Community/Community";
 import Pricing from "./components/Pricing/Pricing";
 import Why from "./components/Why/Why";
+import { SidebarProvider } from "../src/useContext"
+
 
 
 const App = () => {
