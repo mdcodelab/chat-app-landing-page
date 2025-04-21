@@ -8,4 +8,8 @@ tml, body {
   width: 100%;
   background-color: #181721;
   overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  
+  
 }

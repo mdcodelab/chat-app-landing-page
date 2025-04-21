@@ -12,7 +12,7 @@ const Pricing = () => {
         <div
           className="price basic"
           data-aos="fade-up"
-          data-aos-delay="1000"
+          data-aos-delay="500"
         >
           <h5>Basic plan</h5>
           <h2>Free</h2>
@@ -34,7 +34,7 @@ const Pricing = () => {
         <div
           className="price premium"
           data-aos="fade-up"
-          data-aos-delay="1500"
+          data-aos-delay="1000"
         >
           <span className="note">MOST POPULAR</span>
           <h5 style={{ opacity: "0.5" }}>Premium plan</h5>
@@ -61,7 +61,7 @@ const Pricing = () => {
         <div
           className="price super"
           data-aos="fade-up"
-          data-aos-delay="2000"
+          data-aos-delay="1500"
         >
           <h5>Super plan</h5>
           <h2>$ 20</h2>

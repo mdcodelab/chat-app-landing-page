@@ -6,6 +6,7 @@
     padding: 0rem 20px;
     margin: 0 auto;
     max-width: 1250px;
+    scroll-margin-top: 50px;
     overflow: hidden;
 }
   

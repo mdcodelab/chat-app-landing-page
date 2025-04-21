@@ -5,6 +5,7 @@
     margin: 0 auto;
     padding: 4rem 20px;
     background-color: #181721;
+    scroll-margin-top: 50px;
 }
 
 #pricing h2 {

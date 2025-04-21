@@ -6,6 +6,7 @@
   background-color: #181721;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
+    scroll-margin-top: 100px;
 }
 
 .navbar {
