@@ -1,0 +1,27 @@
+.layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #8674FE;
+    position: relative;
+    z-index: 3000;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.number span {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
