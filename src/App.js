@@ -9,6 +9,7 @@ import Pricing from "./components/Pricing/Pricing";
 import Why from "./components/Why/Why";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Layer from "./components/Layer/Layer";
+import Testimonials from "./components/Testimonials/Testimonials";
 import { SidebarProvider } from "../src/useContext"
 
 
@@ -57,6 +58,7 @@ const App = () => {
       <Features />
       <Commmunity />
       <Pricing></Pricing>
+      <Testimonials></Testimonials>
       <Why></Why>
     </div>
     </SidebarProvider>
