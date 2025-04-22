@@ -18,12 +18,12 @@ tml, body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #181721;
+  background-color: grey;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
+  background-color: #181721;
 }
 
 

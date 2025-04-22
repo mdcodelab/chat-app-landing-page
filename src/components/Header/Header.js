@@ -16,7 +16,7 @@ export const Header = () => {
   return (
     <header className="frame" id="home">
       <nav className="navbar" aria-label="Main navigation">
-        <a href="#home">
+        <a href="#home" onClick={toggleSidebar}>
           <img
             className="logo"
             src="/assets/rectangle-5.png"
@@ -33,6 +33,9 @@ export const Header = () => {
           </li>
           <li>
             <a href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
             <a href="#why">Why DIGI</a>

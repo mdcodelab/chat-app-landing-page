@@ -1,0 +1,112 @@
+#testimonials {
+    width: 100%;
+    height: 100vh;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 1rem 20px;
+    margin-bottom: 2rem;
+    scroll-margin-top: 100px;
+}
+
+.testimonials-title {
+    font-size: 35px;
+    letter-spacing: 0.12rem;
+    color: #fff;
+    line-height: 2.2rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.hexagon-container {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+  
+  .testimonial {
+    width: 120px;
+    height: 120px;
+    background-color: #8674FE;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .center {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/public/assets/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .top-left {
+    top: 10%;
+    left: 25%;
+  }
+  
+  .top-right {
+    top: 10%;
+    right: 25%;
+  }
+  
+  .left {
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+  }
+  
+  .right {
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+  }
+  
+  .bottom-left {
+    bottom: 10%;
+    left: 25%;
+  }
+  
+  .bottom-right {
+    bottom: 10%;
+    right: 25%;
+  }
+
+  @media (max-width: 768px) {
+    .testimonials-title {
+        font-size: 28px;
+    }
+    .testimonial {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .center {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .testimonials-title {
+        font-size: 24px;
+    }
+    .testimonial {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .center {
+      font-size: 0.6rem;
+    }
+  }
+  

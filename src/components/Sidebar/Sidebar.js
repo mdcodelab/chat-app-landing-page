@@ -24,6 +24,9 @@ const Sidebar = () => {
             <a href="#pricing" onClick={closeSidebar}>Pricing</a>
           </li>
           <li>
+            <a href="#testimonials" onClick={closeSidebar}>Testimonials</a>
+          </li>
+          <li>
             <a href="#why" onClick={closeSidebar}>Why DIGI</a>
           </li>
     </div>
