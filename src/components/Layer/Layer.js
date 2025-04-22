@@ -1,9 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CountUp from 'react-countup';
 import './Layer.css';
 
 const Layer = () => {
   const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    if (visible) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+
+    return () => {
+      document.body.classList.remove('no-scroll');
+    };
+  }, [visible]);
 
   return (
     visible && (
@@ -12,7 +24,7 @@ const Layer = () => {
           <CountUp
             start={1}
             end={100}
-            duration={10}
+            duration={2.5}
             onEnd={() => setVisible(false)}
           />
           <span>%</span>
@@ -23,4 +35,3 @@ const Layer = () => {
 };
 
 export default Layer;
-

@@ -48,17 +48,18 @@ const App = () => {
   }, []);
 
   return (
-    <>
-    <Layer></Layer>
+
     <SidebarProvider>
+    <div className="container">
+    <Layer></Layer>
     <Sidebar></Sidebar>
       <Header />
       <Features />
       <Commmunity />
       <Pricing></Pricing>
       <Why></Why>
+    </div>
     </SidebarProvider>
-    </>
   );
 };
 

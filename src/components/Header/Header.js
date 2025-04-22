@@ -1,32 +1,29 @@
 import React from "react";
-import { Button } from "../../Button/Button";
 import { GiPsychicWaves } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-import "./Header.css";
 import { useSidebarContext } from "../../useContext";
+import { Button } from "../../Button/Button";
+import "./Header.css";
 
 export const Header = () => {
-  const { isSidebarOpen, setIsSidebarOpen, toggleSidebar } = useSidebarContext();
-  function openSidebar () {
-    setIsSidebarOpen(prevState => !prevState);
-  }
+  const { isSidebarOpen, setIsSidebarOpen } = useSidebarContext();
 
-  function closeSidebar () {
-    setIsSidebarOpen(prevState=> !prevState);
-  }
+  const toggleSidebar = () => {
+    setIsSidebarOpen((prev) => !prev);
+  };
 
   return (
     <header className="frame" id="home">
       <nav className="navbar" aria-label="Main navigation">
-       <a href="#home">
-       <img
-          className="logo"
-          src="/assets/rectangle-5.png"
-          alt="Digi logo" onClick={closeSidebar}
-          loading="lazy"
-        />
-       </a>
+        <a href="#home">
+          <img
+            className="logo"
+            src="/assets/rectangle-5.png"
+            alt="Digi logo"
+            loading="lazy"
+          />
+        </a>
         <ul className="nav-links">
           <li>
             <a href="#features">Features</a>
@@ -45,29 +42,31 @@ export const Header = () => {
           Log in
         </a>
         <div className="menu">
-      <RxHamburgerMenu className={isSidebarOpen ? "icon open" : "icon open none"} onClick={openSidebar}></RxHamburgerMenu>
-      <IoMdClose className={isSidebarOpen ? "icon close none" : "icon close display"} onClick={closeSidebar}></IoMdClose>
+          {isSidebarOpen ? (
+            <IoMdClose className="icon" onClick={toggleSidebar} />
+          ) : (
+            <RxHamburgerMenu className="icon" onClick={toggleSidebar} />
+          )}
         </div>
       </nav>
 
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">
-            Unleash the power  <GiPsychicWaves className="icon"></GiPsychicWaves>  of AI with DIGI
+            Unleash the power <GiPsychicWaves className="icon" /> of AI with DIGI
           </h1>
           <p className="hero-subtitle">
-            Enter DIGI chat bot your gateway to unleash ing the unparalleled
-            power of AI
+            Enter DIGI chat bot your gateway to unleashing the unparalleled power of AI
           </p>
           <div className="cta-button">
             <Button className="get-started" color="primary" size="medium" />
           </div>
-          </div>
+        </div>
 
         <div className="hero-bg">
-          <img src="/assets/hero.png"></img>
+          <img src="/assets/hero.png" alt="Hero Background" />
         </div>
       </section>
     </header>
   );
-}; 
+};
