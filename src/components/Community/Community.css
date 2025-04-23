@@ -2,7 +2,6 @@
     width: 100%;
     height: 120vh;
     max-width: 1250px;
-    margin: 0 auto;
     padding: 1rem 20px;
     margin-bottom: 3rem;
     scroll-margin-top: 100px;
@@ -121,9 +120,13 @@
   }
 
   @media (max-width: 768px) {
-    #testimonials {
+    #community {
       padding-bottom: 0;
       margin-bottom: 0;
+      height: 70vh;
+    }
+    .hexagon-container {
+      height: 50vh;
     }
     .testimonials-title {
         font-size: 28px;
