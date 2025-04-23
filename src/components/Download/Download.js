@@ -7,7 +7,7 @@ const Download = () => {
   return (
     <section id="download">
     <div className="download__header">
-        <h2>Be part of the future</h2>
+        <h2>Be Part of the Future</h2>
         <p>Install the app and progress with us</p>
         <div className="download__icons">
     <AiOutlineApple className="icon"></AiOutlineApple>

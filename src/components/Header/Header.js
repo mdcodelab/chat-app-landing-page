@@ -56,7 +56,7 @@ export const Header = () => {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">
-            Unleash the power <GiPsychicWaves className="icon" /> of AI with DIGI
+            Unleash the Power <GiPsychicWaves className="icon" /> of AI with DIGI
           </h1>
           <p className="hero-subtitle">
             Enter DIGI chat bot your gateway to unleashing the unparalleled power of AI
