@@ -5,7 +5,7 @@ import './Community.css';
 const Community = () => {
   return (
     <section id="community">
-      <h2 className="testimonials-title">Echoes from the Crowd</h2>
+      <h2 className="testimonials-title" data-aos="fade-down">Echoes from the Crowd</h2>
       <div className="hexagon-container">
         <div className="testimonial center"></div>
 

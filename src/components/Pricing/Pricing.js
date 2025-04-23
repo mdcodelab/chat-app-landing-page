@@ -5,7 +5,7 @@ import "./Pricing.css";
 const Pricing = () => {
   return (
     <section id="pricing">
-      <h2>Pay once, use forever</h2>
+      <h2 data-aos="fade-down">Pay once, use forever</h2>
       <div className="pricing__content">
         
         {/* BASIC */}

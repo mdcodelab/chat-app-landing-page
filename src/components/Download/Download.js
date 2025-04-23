@@ -6,7 +6,7 @@ import "./Download.css";
 const Download = () => {
   return (
     <section id="download">
-    <div className="download__header">
+    <div className="download__header" data-aos="fade-down">
         <h2>Be Part of the Future</h2>
         <p>Install the app and progress with us</p>
         <div className="download__icons">
