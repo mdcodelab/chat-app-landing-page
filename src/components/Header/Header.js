@@ -29,13 +29,13 @@ export const Header = () => {
             <a href="#features">Features</a>
           </li>
           <li>
-            <a href="#community">Community</a>
+            <a href="#download">Download</a>
           </li>
           <li>
             <a href="#pricing">Pricing</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#community">Community</a>
           </li>
           <li>
             <a href="#why">Why DIGI</a>

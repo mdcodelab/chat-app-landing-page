@@ -18,13 +18,13 @@ const Sidebar = () => {
             <a href="#features" onClick={closeSidebar}>Features</a>
           </li>
           <li>
-            <a href="#community" onClick={closeSidebar}>Community</a>
+            <a href="#download" onClick={closeSidebar}>Download</a>
           </li>
           <li>
             <a href="#pricing" onClick={closeSidebar}>Pricing</a>
           </li>
           <li>
-            <a href="#testimonials" onClick={closeSidebar}>Testimonials</a>
+            <a href="#community" onClick={closeSidebar}>Community</a>
           </li>
           <li>
             <a href="#why" onClick={closeSidebar}>Why DIGI</a>

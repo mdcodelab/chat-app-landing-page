@@ -4,12 +4,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Header } from "./components/Header/Header";
 import { Features } from "./components/Features/Features";
-import Commmunity from "./components/Community/Community";
+import Download from "./components/Download/Download";
 import Pricing from "./components/Pricing/Pricing";
 import Why from "./components/Why/Why";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Layer from "./components/Layer/Layer";
-import Testimonials from "./components/Testimonials/Testimonials";
+import Community from "./components/Community/Community";
 import { SidebarProvider } from "../src/useContext"
 
 
@@ -56,9 +56,9 @@ const App = () => {
     <Sidebar></Sidebar>
       <Header />
       <Features />
-      <Commmunity />
+      <Download></Download>
       <Pricing></Pricing>
-      <Testimonials></Testimonials>
+      <Community></Community>
       <Why></Why>
     </div>
     </SidebarProvider>

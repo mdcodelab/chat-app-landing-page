@@ -1,24 +1,24 @@
 import React from 'react';
-import { AiOutlineApple } from "react-icons/ai";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
-import "./Community.css";
+import 'aos/dist/aos.css';
+import './Community.css';
 
 const Community = () => {
+
   return (
     <section id="community">
-    <div className="community__header">
-        <h2>Be part of the future</h2>
-        <p>Install the app and progress with us</p>
-        <div className="community__icons">
-    <AiOutlineApple className="icon"></AiOutlineApple>
-    <IoLogoGooglePlaystore className="icon"></IoLogoGooglePlaystore>
-        </div>
-    </div>
-    <div className="community__image">
-    </div>
-      
-    </section>
-  )
-}
+      <h2 className="testimonials-title">Our community</h2>
+      <div className="hexagon-container">
+        <div className="testimonial center"></div>
 
-export default Community
+        <div className="testimonial top-left" data-aos="fade-down" data-aos-delay="100"></div>
+        <div className="testimonial top-right" data-aos="fade-down" data-aos-delay="200"></div>
+        <div className="testimonial left" data-aos="fade-left" data-aos-delay="300"></div>
+        <div className="testimonial right" data-aos="fade-right" data-aos-delay="400"></div>
+        <div className="testimonial bottom-left" data-aos="fade-up" data-aos-delay="500"></div>
+        <div className="testimonial bottom-right" data-aos="fade-up" data-aos-delay="600"></div>
+      </div>
+    </section>
+  );
+};
+
+export default Community;
