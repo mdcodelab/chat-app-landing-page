@@ -1,8 +1,7 @@
 #pricing {
     width: 100%;
-    height: max-content;
+    height: 100%;
     max-width: 1259px;
-    margin: 0 auto;
     padding: 4rem 20px;
     background-color: #181721;
     scroll-margin-top: 50px;
@@ -19,6 +18,8 @@
 }
 
 .pricing__content {
+    width: 100%;
+    max-width: 1250px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
