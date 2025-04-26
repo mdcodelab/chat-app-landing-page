@@ -9,8 +9,6 @@ const Sidebar = () => {
         setIsSidebarOpen(false);
     }
 
-    console.log(isSidebarOpen);
-
   return (
     <section id="sidebar" className={isSidebarOpen ? "open" : ""}>
     <div className="links">

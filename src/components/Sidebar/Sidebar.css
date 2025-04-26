@@ -8,7 +8,7 @@
     top: 5rem;
     left: 0;
     right: -200%;
-    z-index: 2000;
+    z-index: 3000;
     transition: all 0.3s ease;
 }
 
@@ -40,7 +40,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 672px) {
+@media (max-width: 768px) {
     #sidebar.open {
         right: 0;
         transition: all 0.3s ease;

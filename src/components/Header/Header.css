@@ -11,22 +11,26 @@
 .navbar {
   width: 100%;
   max-width: 1250px;
+  margin: 0 auto;
   display: flex;
+  flex-wrap: nowrap;
   height: 5rem;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 2000;
+  padding: 0 4rem;
   justify-content: space-between;
   align-items: center;
   background-color: #181721;
   font-family: 'Roboto', sans-serif;
+  border: 2px solid red;
 }
 
 .logo {
   max-height: 5rem;
-  width: 8rem;
+  max-width: 5rem;
   display: block;
   object-fit: cover;;
   margin: 0;
@@ -59,13 +63,13 @@
   opacity: 1 !important;
 }
 
-.login-link {
+a.login-link {
   text-decoration: none;
   color: #ffffff;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  padding-right: 2rem;
+  position: relative;
 }
 
 .hero {
@@ -153,14 +157,6 @@
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 1024px) {
-  .navbar {
-    padding: 15px 30px;
-  }
-  
-  .logo {
-    height: 5rem !important;
-    margin: -2rem !important;
-  }
   
   .nav-links {
     gap: 20px;
@@ -274,9 +270,6 @@
   width: 2rem;
   height: 2rem;
   display: none !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .icon {
