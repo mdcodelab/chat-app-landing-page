@@ -14,7 +14,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="frame" id="home">
+    <section className="frame" id="home">
       <nav className="navbar" aria-label="Main navigation">
         <a href="#home" onClick={toggleSidebar}>
           <img
@@ -70,6 +70,6 @@ export const Header = () => {
           <img src="/assets/hero.png" alt="Hero Background" />
         </div>
       </section>
-    </header>
+    </section>
   );
 };
