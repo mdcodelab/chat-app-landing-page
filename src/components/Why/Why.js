@@ -8,10 +8,9 @@ import { FiYoutube } from "react-icons/fi";
 
 const Why = () => {
   return (
-    <>
-      <section id="why">
+    <section id="why">
+      <div className="why__container">
         <div className="why__left" data-aos="fade-right">
-          <img src="/assets/why.png" alt="Why Digi" />
         </div>
 
         <div className="why__right" data-aos="fade-left">
@@ -19,7 +18,7 @@ const Why = () => {
           <p>DIGI unlock the potential of AI-powered applications</p>
           <button className="select__btn">Get started</button>
         </div>
-      </section>
+      </div>
 
       <footer>
         <a href="#home">
@@ -32,7 +31,7 @@ const Why = () => {
           <FiYoutube className="icon" />
         </div>
       </footer>
-    </>
+    </section>
   )
 }
 

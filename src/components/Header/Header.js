@@ -19,7 +19,7 @@ export const Header = () => {
         <a href="#home" onClick={toggleSidebar}>
           <img
             className="logo"
-            src="/assets/rectangle-5.png"
+            src="/assets/logonav.png"
             alt="Digi logo"
             loading="lazy"
           />
