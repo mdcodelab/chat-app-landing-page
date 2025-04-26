@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
       <nav className="navbar" aria-label="Main navigation">
-        <a href="#home" onClick={toggleSidebar}>
+        <a href="#home">
           <img
             className="logo"
             src="/assets/logonav.png"

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Lenis from 'lenis';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Header1 from "./components/Header/Header1";
+import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import { Features } from "./components/Features/Features";
 import Download from "./components/Download/Download";
@@ -56,7 +56,7 @@ const App = () => {
     <Layer></Layer>
     <Navbar></Navbar>
     <Sidebar></Sidebar>
-      <Header1 />
+      <Header />
       <Features />
       <Download></Download>
       <Pricing></Pricing>
